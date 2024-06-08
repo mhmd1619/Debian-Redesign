@@ -1,0 +1,10 @@
+body {
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(45deg, var(--background), var(--background-alt));
+  color: var(--text);
+  font-size: 14px;
+  h1 {
+    font-weight: 800;
+    font-size: clamp(32px, 5vw, 3rem);
+  }
+}
