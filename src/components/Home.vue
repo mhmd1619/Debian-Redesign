@@ -26,7 +26,7 @@ import { Icon } from '@iconify/vue';
         </div>
         <div class="col-12 col-lg-6 order-1 order-lg-2">
           <div class="image-wrapper mb-25 lg-mb-0">
-            <img src="/debian.svg" class="mx-auto" />
+            <img src="/debian.svg" class="mr-auto ml-auto mt-30 lg-mt-0" />
           </div>
         </div>
       </div>
