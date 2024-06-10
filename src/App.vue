@@ -2,6 +2,7 @@
 import Home from "./components/Home.vue";
 import Navbar from "./components/Navbar.vue";
 import About from "./components/About.vue";
+import Partners from "./components/Partners.vue";
 </script>
 
 <template>
@@ -9,6 +10,7 @@ import About from "./components/About.vue";
     <Navbar />
     <Home />
     <About />
+    <Partners />
   </div>
 </template>
 
