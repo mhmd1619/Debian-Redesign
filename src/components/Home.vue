@@ -36,6 +36,7 @@ import { Icon } from '@iconify/vue';
 
 <style scoped lang="scss">
 .home {
+  min-height: 100vh;
   .content-wrapper {
     position: relative;
 

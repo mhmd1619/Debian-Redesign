@@ -42,7 +42,7 @@ const features = ref([
 </script>
 
 <template>
-  <section class="about pt-30">
+  <section id="about" class="about pt-30">
     <div class="container">
       <h2 class="text-align-center text-transform-capitalize mb-30">why debian</h2>
       <div class="tap-controls mx-auto">

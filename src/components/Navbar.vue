@@ -26,7 +26,7 @@ onMounted(() => {
       </button>
       <div class="links-wrapper" :class="{ 'collapsed': isCollapsed }">
         <a href="#" class="link">download</a>
-        <a href="#" class="link">about</a>
+        <a href="#about" class="link">about</a>
         <a href="#" class="link">news</a>
         <a href="#" class="link">contact us</a>
         <a class="link">

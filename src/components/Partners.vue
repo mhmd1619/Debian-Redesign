@@ -98,7 +98,6 @@ const images = ref([
       }
     }
 
-
   }
 }
 </style>

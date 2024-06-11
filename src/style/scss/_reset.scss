@@ -10,4 +10,7 @@ body {
   p {
     color: var(--text-alt);
   }
+  section {
+    min-height: auto;
+  }
 }
