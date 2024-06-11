@@ -3,7 +3,7 @@ import { Icon } from '@iconify/vue';
 </script>
 
 <template>
-  <section class="news pt-30">
+  <section id="news" class="news pt-30">
     <div class="container">
       <h2 class="text-transform-capitalize text-align-center">latest news</h2>
       <div class="row mt-30">

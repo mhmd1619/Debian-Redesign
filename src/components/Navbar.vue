@@ -25,11 +25,11 @@ onMounted(() => {
         <Icon icon="material-symbols:menu" />
       </button>
       <div class="links-wrapper" :class="{ 'collapsed': isCollapsed }">
-        <a href="#" class="link">download</a>
-        <a href="#about" class="link">about</a>
-        <a href="#" class="link">news</a>
-        <a href="#" class="link">contact us</a>
-        <a class="link">
+        <a href="#" class="link" @click="isCollapsed = !isCollapsed">download</a>
+        <a href="#about" class="link" @click="isCollapsed = !isCollapsed">about</a>
+        <a href="#news" class="link" @click="isCollapsed = !isCollapsed">news</a>
+        <a href="#contact" class="link" @click="isCollapsed = !isCollapsed">contact us</a>
+        <a class="link" @click="isCollapsed = !isCollapsed">
           <Theme />
         </a>
       </div>
@@ -84,9 +84,13 @@ nav {
       align-items: start;
       padding-top: 1rem;
       background-color: var(--background-alt);
+      overflow: hidden;
+      max-height: 300px;
+      transition: all 250ms linear;
 
       &.collapsed {
-        display: none;
+        max-height: 0;
+        padding: 0;
       }
 
       .link {

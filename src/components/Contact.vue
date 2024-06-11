@@ -19,7 +19,7 @@ const topicVal = ref("topic");
 </script>
 
 <template>
-  <section class="contact mt-30 pt-30">
+  <section id="contact" class="contact mt-30 pt-30">
     <div class="container">
       <h2 class="text-transform-capitalize text-align-center">get in touch</h2>
       <form class="form mt-30">
@@ -102,7 +102,8 @@ const topicVal = ref("topic");
         }
 
         .options {
-          display: flex;
+          max-height: 500px;
+          border-width: 2px;
         }
       }
     }
@@ -112,13 +113,15 @@ const topicVal = ref("topic");
       top: 105%;
       left: 0;
       width: 100%;
-      display: none;
+      max-height: 0;
+      display: flex;
       flex-direction: column;
       overflow: hidden;
-      border: 2px solid var(--border);
+      border: 0px solid var(--border);
       background-color: var(--background-alt);
       border-radius: 20px;
-      transition: all 250ms ease-in-out;
+      transition: max-height 250ms ease-in-out;
+      z-index: 99;
 
       &>* {
         color: var(--text-alt);
